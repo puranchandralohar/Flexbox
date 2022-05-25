@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-style {
+  padding: 20px 30px;
+  background-color: #ebebeb;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  margin-left: 20px;
+}
+
+.article {
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  background-color: #cfcfcf;
+}
+
+.article-para,
+.article-image {
+  padding: 10px;
+  margin: 10px;
+}
+.article-para h2 {
+  padding: 20px 0;
+  font-size: 30px;
+}
+.gallary {
+  padding: 30px 50px;
+}
+.gallary h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.image-gallary img {
+  flex-basis: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+.image-gallary {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer{
+    padding: 20px 30px;
+    justify-content: space-between;
+    background-color: #ebebeb;
+}
+
+.icons .fa-brands{
+    margin-left: 20px;
+}
